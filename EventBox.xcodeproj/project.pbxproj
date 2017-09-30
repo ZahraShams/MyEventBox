@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		F425E2681F7D03540045C5BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F425E2671F7D03540045C5BA /* AppDelegate.swift */; };
-		F425E26A1F7D03540045C5BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F425E2691F7D03540045C5BA /* ViewController.swift */; };
+		F425E26A1F7D03540045C5BA /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F425E2691F7D03540045C5BA /* EventsViewController.swift */; };
 		F425E26D1F7D03540045C5BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F425E26B1F7D03540045C5BA /* Main.storyboard */; };
 		F425E26F1F7D03540045C5BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F425E26E1F7D03540045C5BA /* Assets.xcassets */; };
 		F425E2721F7D03540045C5BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F425E2701F7D03540045C5BA /* LaunchScreen.storyboard */; };
+		F425E27C1F7D21D40045C5BA /* IBussinessEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F425E27B1F7D21D40045C5BA /* IBussinessEntity.swift */; };
+		F425E27E1F7D23120045C5BA /* BussinessEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F425E27D1F7D23110045C5BA /* BussinessEntity.swift */; };
+		F425E2801F7D24620045C5BA /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F425E27F1F7D24620045C5BA /* Calendar.swift */; };
+		F425E2821F7D27C60045C5BA /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F425E2811F7D27C60045C5BA /* Event.swift */; };
+		F425E2861F7D2AAF0045C5BA /* IRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F425E2851F7D2AAF0045C5BA /* IRepository.swift */; };
+		F425E2881F7D2BF50045C5BA /* ICanledarRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F425E2871F7D2BF50045C5BA /* ICanledarRepository.swift */; };
+		F425E28A1F7D2C050045C5BA /* IEventRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F425E2891F7D2C050045C5BA /* IEventRepository.swift */; };
+		F425E28C1F7D2E240045C5BA /* CanledarRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F425E28B1F7D2E240045C5BA /* CanledarRepository.swift */; };
+		F425E28E1F7D306D0045C5BA /* InitialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F425E28D1F7D306D0045C5BA /* InitialData.swift */; };
+		F425E2901F7D60C80045C5BA /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F425E28F1F7D60C80045C5BA /* EventTableViewCell.swift */; };
+		F425E2921F7D67390045C5BA /* CalendarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F425E2911F7D67390045C5BA /* CalendarsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F425E2641F7D03540045C5BA /* EventBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F425E2671F7D03540045C5BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F425E2691F7D03540045C5BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F425E2691F7D03540045C5BA /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		F425E26C1F7D03540045C5BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F425E26E1F7D03540045C5BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F425E2711F7D03540045C5BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F425E2731F7D03540045C5BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F425E27B1F7D21D40045C5BA /* IBussinessEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBussinessEntity.swift; sourceTree = "<group>"; };
+		F425E27D1F7D23110045C5BA /* BussinessEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BussinessEntity.swift; sourceTree = "<group>"; };
+		F425E27F1F7D24620045C5BA /* Calendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		F425E2811F7D27C60045C5BA /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		F425E2851F7D2AAF0045C5BA /* IRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IRepository.swift; sourceTree = "<group>"; };
+		F425E2871F7D2BF50045C5BA /* ICanledarRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICanledarRepository.swift; sourceTree = "<group>"; };
+		F425E2891F7D2C050045C5BA /* IEventRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IEventRepository.swift; sourceTree = "<group>"; };
+		F425E28B1F7D2E240045C5BA /* CanledarRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanledarRepository.swift; sourceTree = "<group>"; };
+		F425E28D1F7D306D0045C5BA /* InitialData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialData.swift; sourceTree = "<group>"; };
+		F425E28F1F7D60C80045C5BA /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		F425E2911F7D67390045C5BA /* CalendarsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +76,49 @@
 		F425E2661F7D03540045C5BA /* EventBox */ = {
 			isa = PBXGroup;
 			children = (
+				F425E2791F7D1B860045C5BA /* Models */,
 				F425E2671F7D03540045C5BA /* AppDelegate.swift */,
-				F425E2691F7D03540045C5BA /* ViewController.swift */,
+				F425E28F1F7D60C80045C5BA /* EventTableViewCell.swift */,
+				F425E2691F7D03540045C5BA /* EventsViewController.swift */,
 				F425E26B1F7D03540045C5BA /* Main.storyboard */,
 				F425E26E1F7D03540045C5BA /* Assets.xcassets */,
 				F425E2701F7D03540045C5BA /* LaunchScreen.storyboard */,
 				F425E2731F7D03540045C5BA /* Info.plist */,
+				F425E2911F7D67390045C5BA /* CalendarsViewController.swift */,
 			);
 			path = EventBox;
+			sourceTree = "<group>";
+		};
+		F425E2791F7D1B860045C5BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F425E2841F7D2A890045C5BA /* Repository */,
+				F425E2831F7D2A7D0045C5BA /* Domain */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F425E2831F7D2A7D0045C5BA /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F425E27B1F7D21D40045C5BA /* IBussinessEntity.swift */,
+				F425E27D1F7D23110045C5BA /* BussinessEntity.swift */,
+				F425E27F1F7D24620045C5BA /* Calendar.swift */,
+				F425E2811F7D27C60045C5BA /* Event.swift */,
+				F425E28D1F7D306D0045C5BA /* InitialData.swift */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		F425E2841F7D2A890045C5BA /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				F425E2851F7D2AAF0045C5BA /* IRepository.swift */,
+				F425E2871F7D2BF50045C5BA /* ICanledarRepository.swift */,
+				F425E28B1F7D2E240045C5BA /* CanledarRepository.swift */,
+				F425E2891F7D2C050045C5BA /* IEventRepository.swift */,
+			);
+			name = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +153,6 @@
 				TargetAttributes = {
 					F425E2631F7D03540045C5BA = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = PX7BS3BUZ3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,8 +193,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F425E26A1F7D03540045C5BA /* ViewController.swift in Sources */,
+				F425E2901F7D60C80045C5BA /* EventTableViewCell.swift in Sources */,
+				F425E27E1F7D23120045C5BA /* BussinessEntity.swift in Sources */,
+				F425E2921F7D67390045C5BA /* CalendarsViewController.swift in Sources */,
+				F425E26A1F7D03540045C5BA /* EventsViewController.swift in Sources */,
 				F425E2681F7D03540045C5BA /* AppDelegate.swift in Sources */,
+				F425E27C1F7D21D40045C5BA /* IBussinessEntity.swift in Sources */,
+				F425E2861F7D2AAF0045C5BA /* IRepository.swift in Sources */,
+				F425E28E1F7D306D0045C5BA /* InitialData.swift in Sources */,
+				F425E28C1F7D2E240045C5BA /* CanledarRepository.swift in Sources */,
+				F425E28A1F7D2C050045C5BA /* IEventRepository.swift in Sources */,
+				F425E2821F7D27C60045C5BA /* Event.swift in Sources */,
+				F425E2801F7D24620045C5BA /* Calendar.swift in Sources */,
+				F425E2881F7D2BF50045C5BA /* ICanledarRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +330,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PX7BS3BUZ3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EventBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.barid.EventBox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shams.EventBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -276,10 +343,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PX7BS3BUZ3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EventBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.barid.EventBox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shams.EventBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
